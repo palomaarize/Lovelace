@@ -1,0 +1,12 @@
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\bin\Debug\net5.0\Lovelace.Core.deps.json
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\bin\Debug\net5.0\Lovelace.Core.dll
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\bin\Debug\net5.0\ref\Lovelace.Core.dll
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\bin\Debug\net5.0\Lovelace.Core.pdb
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\obj\Debug\net5.0\Lovelace.Core.csprojAssemblyReference.cache
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\obj\Debug\net5.0\Lovelace.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\obj\Debug\net5.0\Lovelace.Core.AssemblyInfoInputs.cache
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\obj\Debug\net5.0\Lovelace.Core.AssemblyInfo.cs
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\obj\Debug\net5.0\Lovelace.Core.csproj.CoreCompileInputs.cache
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\obj\Debug\net5.0\Lovelace.Core.dll
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\obj\Debug\net5.0\ref\Lovelace.Core.dll
+C:\Users\elayne\Desktop\Lovelace\Lovelace.Core\obj\Debug\net5.0\Lovelace.Core.pdb
