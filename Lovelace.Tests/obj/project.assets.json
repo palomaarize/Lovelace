@@ -4623,27 +4623,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paloma.santos\\.nuget\\packages\\": {}
+    "C:\\Users\\elayne\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paloma.santos\\projetos\\Lovelace.Tests\\Lovelace.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Tests\\Lovelace.Tests.csproj",
       "projectName": "Lovelace.Tests",
-      "projectPath": "C:\\Users\\paloma.santos\\projetos\\Lovelace.Tests\\Lovelace.Tests.csproj",
-      "packagesPath": "C:\\Users\\paloma.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paloma.santos\\projetos\\Lovelace.Tests\\obj\\",
+      "projectPath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Tests\\Lovelace.Tests.csproj",
+      "packagesPath": "C:\\Users\\elayne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\paloma.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\elayne\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://corp0625:8081/repository/arquitetura-furnas.net": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4690,7 +4687,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

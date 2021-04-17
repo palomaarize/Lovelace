@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B6UlZfFZnaRGCCprbKM/6U3hFiNIGz76UbZEm0n404T1k/VDCvxb1XYSx0nMR6W7nc5r+j5DXNdpHBRSX6gztQ==",
+  "dgSpecHash": "f1DmWgBYn+jkx7q098R0laKIcEQsmYoZCRsjLou6HcYg9sGSrIy3wTeeGt3ZkUa2MOTM/pi3C35/yGZFLCZJIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paloma.santos\\projetos\\Lovelace.Core\\Lovelace.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Core\\Lovelace.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

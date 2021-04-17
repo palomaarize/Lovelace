@@ -8,3 +8,10 @@
 
 # Local History for Visual Studio Code
 .history/
+
+Lovelace.Api/bin/
+Lovelace.Api/obj/
+Lovelace.Core/obj/
+Lovelace.Core/bin/
+Lovelace.Data/obj/
+Lovelace.Data/bin/

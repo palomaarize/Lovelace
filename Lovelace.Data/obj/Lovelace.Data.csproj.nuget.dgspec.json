@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paloma.santos\\projetos\\Lovelace.Data\\Lovelace.Data.csproj": {}
+    "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Data\\Lovelace.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paloma.santos\\projetos\\Lovelace.Data\\Lovelace.Data.csproj": {
+    "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Core\\Lovelace.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paloma.santos\\projetos\\Lovelace.Data\\Lovelace.Data.csproj",
-        "projectName": "Lovelace.Data",
-        "projectPath": "C:\\Users\\paloma.santos\\projetos\\Lovelace.Data\\Lovelace.Data.csproj",
-        "packagesPath": "C:\\Users\\paloma.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paloma.santos\\projetos\\Lovelace.Data\\obj\\",
+        "projectUniqueName": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Core\\Lovelace.Core.csproj",
+        "projectName": "Lovelace.Core",
+        "projectPath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Core\\Lovelace.Core.csproj",
+        "packagesPath": "C:\\Users\\elayne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\paloma.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\elayne\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://corp0625:8081/repository/arquitetura-furnas.net": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +58,77 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Data\\Lovelace.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Data\\Lovelace.Data.csproj",
+        "projectName": "Lovelace.Data",
+        "projectPath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Data\\Lovelace.Data.csproj",
+        "packagesPath": "C:\\Users\\elayne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elayne\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Core\\Lovelace.Core.csproj": {
+                "projectPath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Core\\Lovelace.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.0-alpha.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

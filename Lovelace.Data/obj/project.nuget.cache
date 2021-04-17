@@ -1,8 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "JB8HLnCE3EA8NId5zE/qUv3HbMwycUNlgb10N4hEz23+Vw/SfOhviQ5cWgfYv2Ue6LkxB76ouiXhmjMsz99ENw==",
+  "dgSpecHash": "4o2XfKJlObKPoT4Cu7HEbFkKFZnCsbRIqYrbUYgc2emwNea8ZsMlSSDov7R6S8sSfqyZT18z+fRJH/lKvf0EuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paloma.santos\\projetos\\Lovelace.Data\\Lovelace.Data.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\elayne\\Desktop\\Lovelace\\Lovelace.Data\\Lovelace.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.5\\microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0-rc.2.20475.6\\microsoft.entityframeworkcore.relational.5.0.0-rc.2.20475.6.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0-rc.2.20475.5\\microsoft.extensions.configuration.abstractions.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\mysqlconnector\\1.0.1\\mysqlconnector.1.0.1.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0-alpha.1\\pomelo.entityframeworkcore.mysql.5.0.0-alpha.1.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\elayne\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
