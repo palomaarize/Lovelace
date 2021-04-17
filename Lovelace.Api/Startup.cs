@@ -1,15 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Lovelace.Core.Interfaces;
+using Lovelace.Core.Services;
+using Lovelace.Core.Services.interfaces.IUser;
+using Lovelace.Data.Context;
+using Lovelace.Data.Repository.UserRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace Lovelace.Api
@@ -23,9 +22,19 @@ namespace Lovelace.Api
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            // ConnectionBaseData
+            var connectionString = Configuration["MySQLConnection:MySQLConnectionString"];
+
+            services.AddDbContext<Contexto>((options) => options.UseMySql(connectionString));
+
+            // AddScoped Repository
+            services.AddScoped<IUserRepository, UserRepository>();
+
+            // AddScoped Service
+            services.AddScoped<IUserService, UserService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -34,7 +43,7 @@ namespace Lovelace.Api
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
